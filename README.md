@@ -26,7 +26,15 @@ Therefore, I have created 3 separate scripts to perform these tasks. The first s
 🎁 The entire project is live at [fahimfba.github.io/organize-ADNI](https://fahimfba.github.io/organize-ADNI/)
 
 ## Introduction
-The Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset is a large dataset that contains the data of subjects with Alzheimer's disease (AD), Mild Cognitive Impairment (MCI), and Cognitively Normal (CN). The dataset is organized into different directories based on the subject's ID. This script will organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally. The script will create 3 directories: `AD`, `MCI`, and `CN`. Each directory will contain the subjects' data based on the group name. The script will read the csv file that contains the list of the subjects and organize the dataset based on the group name.
+The Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset is a large dataset that contains the data of subjects with Alzheimer's disease (AD), Mild Cognitive Impairment (MCI), and Cognitively Normal (CN). The dataset is organized into different directories based on the subject's ID. This script will organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally. 
+
+The first script ([script.py](./script.py)) will create 3 directories: `AD`, `MCI`, and `CN`. Each directory will contain the subjects' data based on the group name. The script will read the csv file that contains the list of the subjects and organize the dataset based on the group name. 
+
+The second script ([remove_subdir_script.py](./remove_subdir_script.py)) will remove all the subdirectories of the individual subjects and keep only the data of the subjects based on the group name. 
+
+The third script ([rename_file_script.py](./rename_file_script.py)) will rewrite the `.nii` files' filenames to the subject's ID. The script will rename the `.nii` files' filenames to the subject's ID. Suppose, a file name is `ADNI_002_S_0619_MR_MPR-R__GradWarp__N3__Scaled_2_Br_20081001115218896_S15145_I118678.nii`. It will be renamed to `I118678.nii`. 
+
+This script can be used to organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally. This script works successfully on Windows, Linux, and macOS.
 
 ## Screenshot
 
