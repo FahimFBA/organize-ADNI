@@ -14,9 +14,10 @@ The Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset is a large datase
 ## How to use
 1. Clone the repository to your local machine.
 2. Copy the `script.py` to the root directory of the ADNI dataset.
-3. Change the csv file name in the `script.py` to the name of the csv file that contains the list of the subjects.
-4. Create 3 empty directories in the root directory of the ADNI dataset and name them `AD`, `MCI`, and `CN`.
-5. Run the `script.py` using the following command:
+3. Copy the csv file that contains the list of the subjects to the root directory of the ADNI dataset.
+4. Change the csv file name in the `script.py` to the name of the csv file that contains the list of the subjects.
+5. Create 3 empty directories in the root directory of the ADNI dataset and name them `AD`, `MCI`, and `CN`.
+6. Run the `script.py` using the following command:
 ```bash
 python script.py
 ```
@@ -24,8 +25,9 @@ or,
 ```bash
 python3 script.py
 ```
-6. The script will organize the dataset based on the group name (AD, MCI, CN).
+7. The script will organize the dataset based on the group name (AD, MCI, CN).
 
+*Note: Here the root directory implies that directory which contains all the subject folders.*
 
 ## Experiment
 The script was tested on the ADNI dataset - ADNI1: Screening 1.5T having 1075 subjects. The dataset contains 3 groups of subjects: AD, MCI, and CN. The script was able to organize the dataset based on the group name. The dataset was organized into 3 directories: `AD`, `MCI`, and `CN`. Each directory contains the subjects' data based on the group name. The dataset was organized successfully. This script can be used to organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally. This script works successfully on Windows, Linux, and macOS.
