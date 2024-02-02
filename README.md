@@ -1,6 +1,22 @@
 # Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset organization based on the group name (AD, MCI, CN)
 Organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally.
 
+⭐ the repository if you found it helpful. 😊
+
+## Table of Contents
+- [Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset organization based on the group name (AD, MCI, CN)](#alzheimers-disease-neuroimaging-initiative-adni-dataset-organization-based-on-the-group-name-ad-mci-cn)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Screenshot](#screenshot)
+  - [Prerequisites](#prerequisites)
+  - [How to use](#how-to-use)
+  - [Experiment](#experiment)
+  - [License](#license)
+
+
+
+🎁 The entire project is live at [fahimfba.github.io/organize-ADNI](https://fahimfba.github.io/organize-ADNI/)
+
 ## Introduction
 The Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset is a large dataset that contains the data of subjects with Alzheimer's disease (AD), Mild Cognitive Impairment (MCI), and Cognitively Normal (CN). The dataset is organized into different directories based on the subject's ID. This script will organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally. The script will create 3 directories: `AD`, `MCI`, and `CN`. Each directory will contain the subjects' data based on the group name. The script will read the csv file that contains the list of the subjects and organize the dataset based on the group name.
 
