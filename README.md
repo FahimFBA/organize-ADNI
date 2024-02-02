@@ -97,7 +97,7 @@ python3 rename_file_script.py
 *Note: Here the root directory implies that directory which contains all the subject folders.*
 
 ## Experiment
-The script was tested on the ADNI dataset - ADNI1: Screening 1.5T having 1075 subjects. The dataset contains 3 groups of subjects: AD, MCI, and CN. The script was able to organize the dataset based on the group name. The dataset was organized into 3 directories: `AD`, `MCI`, and `CN`. Each directory contains the subjects' data based on the group name. The dataset was organized successfully. This script can be used to organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally. This script works successfully on Windows, Linux, and macOS.
+The script was tested on the ADNI dataset - ADNI1: Screening 1.5T having 1075 subjects. The dataset contains 3 groups of subjects: AD, MCI, and CN. The script was able to organize the dataset based on the group name. The dataset was organized into 3 directories: `AD`, `MCI`, and `CN`. Each directory contains the subjects' data based on the group name. The dataset was organized successfully. This script can be used to organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally. Then, another script was used to remove all the subdirectories of the individual subjects and keep only the data of the subjects based on the group name. Lastly, another script was used to rewrite the `.nii` files' filenames to the subject's ID. The script was able to rewrite the `.nii` files' filenames to the subject's ID. The dataset was organized successfully.
 
 ## License
 This project is licensed under the Apache License - see the [LICENSE](https://github.com/FahimFBA/organize-ADNI/blob/main/LICENSE) file for details.
