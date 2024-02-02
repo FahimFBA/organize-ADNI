@@ -1,17 +1,18 @@
-# Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset organization based on the group name (AD, MCI, CN)
+![Cover](/img/og_cover.png)
+
+Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset organization based on the group name (AD, MCI, CN)
 Organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally.
 
 ⭐ the repository if you found it helpful. 😊
 
 ## Table of Contents
-- [Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset organization based on the group name (AD, MCI, CN)](#alzheimers-disease-neuroimaging-initiative-adni-dataset-organization-based-on-the-group-name-ad-mci-cn)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Screenshot](#screenshot)
-  - [Prerequisites](#prerequisites)
-  - [How to use](#how-to-use)
-  - [Experiment](#experiment)
-  - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Screenshot](#screenshot)
+- [Prerequisites](#prerequisites)
+- [How to use](#how-to-use)
+- [Experiment](#experiment)
+- [License](#license)
 
 
 
