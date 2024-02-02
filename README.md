@@ -13,6 +13,9 @@ The Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset is a large datase
 
 ## How to use
 1. Clone the repository to your local machine.
+```bash
+git clone https://github.com/FahimFBA/organize-ADNI.git
+```
 2. Copy the `script.py` to the root directory of the ADNI dataset.
 3. Copy the csv file that contains the list of the subjects to the root directory of the ADNI dataset.
 4. Change the csv file name in the `script.py` to the name of the csv file that contains the list of the subjects.
@@ -25,7 +28,7 @@ or,
 ```bash
 python3 script.py
 ```
-7. The script will organize the dataset based on the group name (AD, MCI, CN).
+1. The script will organize the dataset based on the group name (AD, MCI, CN).
 
 *Note: Here the root directory implies that directory which contains all the subject folders.*
 
