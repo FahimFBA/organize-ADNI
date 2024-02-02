@@ -49,7 +49,7 @@ This script can be used to organize the entire ADNI dataset based on the group n
 
 Lastly, I have analyzed the dataset and found that the dataset is organized successfully. 
 
-Here, you can check the After & Before files and folders count side by side (Left Side = After, Right Side = After).
+Here, you can check the After & Before files and folders count side by side (Left Side = After, Right Side = Before).
 
 ![Comparison](./img/After_Before.png)
 
