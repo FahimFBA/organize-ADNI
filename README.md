@@ -28,7 +28,7 @@ or,
 ```bash
 python3 script.py
 ```
-1. The script will organize the dataset based on the group name (AD, MCI, CN).
+7. The script will organize the entire ADNI dataset based on the group name (AD, MCI, CN) locally.
 
 *Note: Here the root directory implies that directory which contains all the subject folders.*
 
