@@ -22,8 +22,7 @@ def move_folders(csv_file):
                     shutil.move(source_folder, destination_folder)
                     print(f"Moved folder '{subject}' to '{group}' folder.")
                 else:
-                    print(f"Source or destination folder does not exist for '{
-                          subject}' or '{group}'. Skipping.")
+                    print(f"Source or destination folder does not exist for '{subject}' or '{group}'. Skipping.")
 
 
 # Run the function
