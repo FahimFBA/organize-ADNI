@@ -20,6 +20,7 @@ Therefore, I have created 3 separate scripts to perform these tasks. The first s
 - [How to use](#how-to-use)
 - [Experiment](#experiment)
 - [License](#license)
+- [Additional](#additional)
 
 
 
@@ -101,3 +102,18 @@ The script was tested on the ADNI dataset - ADNI1: Screening 1.5T having 1075 su
 
 ## License
 This project is licensed under the Apache License - see the [LICENSE](https://github.com/FahimFBA/organize-ADNI/blob/main/LICENSE) file for details.
+
+## Additional
+If you want to compress the `.nii` files to `.gzip` files, you can use the following command:
+```bash
+gzip * -r
+```
+This command will compress all the `.nii` files to `.gzip` files. But make sure that you go to the root directory of the ADNI dataset before running the command. Also, keep in mind that it will replace the original `.nii` files with the `.gzip` files. Therefore, it is recommended to keep a backup of the original `.nii` files before running the command.
+
+Also, if you are a Windows user, you can install the `gzip` using chocolatey. You can install `gzip` via chocolatey using the following command:
+```bash
+choco install gzip
+```
+Then, you can use the `gzip` command to compress the `.nii` files to `.gzip` files.
+
+If you haven't installed chocolatey yet, you can install chocolatey by following the instructions on the [chocolatey website](https://chocolatey.org/install).
