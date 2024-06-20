@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+authors:
+- family-names: "Amin"
+  given-names: "Md. Fahim"
+  orcid: "https://orcid.org/0000-0001-7392-793X"
+title: "organize-ADNI"
+version: 2.0.4
+date-released: 2024-02-21
+url: "https://github.com/FahimFBA/organize-ADNI"
